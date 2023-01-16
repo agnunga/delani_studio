@@ -2,8 +2,35 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-  }
-  
-  .grid img {
+}
+
+.grid img {
     width: 100%;
-  }
+}
+
+#welcome {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+
+}
+
+#about_us {
+    background-color: white;
+}
+
+#services {
+background-image: url("../assets/backgrounds/s_image.jpg");
+}
+
+#what_we_do {
+    background-color: white;
+}
+
+#portfolio {
+    background-color: white;
+}
+
+#contact_us {
+background-image: url("../assets/backgrounds/c_image.jpg");
+}
+
+  
