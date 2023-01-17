@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" integrity="sha384-He3RckdFB2wffiHOcESa3sf4Ida+ni/fw9SSzAcfY2EPnU1zkK/sLUzw2C5Tyuhj" crossorigin="anonymous">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">    
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <!-- custom css -->
     <link rel="stylesheet" href="css/main.css">
     
@@ -17,69 +19,92 @@
   </head>
   <body>
         <div class="container">
-            <div class="row" id="welcome">
-                <img src="assets/logo/logo.png">
-                <h2>WELCOME TO DELANI STUDIO</h2>
-                <h2>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h2>
-
-                <img src="assets/mouse_click.png">
-
+            <div class="row text-white" id="welcome">
+                <div class="text-center col-sm-12">
+                    <img src="assets/logo/logo.png" class="margin-5-c">
+                    <h1 class="margin-5-c">WELCOME</h1>
+                    <h1>TO DELANI STUDIO</h1>
+                    <h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h6>
+                    <img src="assets/mouse_click.png"  class="margin-5-c">
+                </div>
             </div>
             <!-- welcome -->
 
             <div class="row" id="about_us">
-                <h2>ABOUT US</h2>
-
-                <p>When you work with us, you are part of a team of committed collaborators. All aspects pf our software developemnt process are intergrated, interactive and agile.</p>
-                <p>Our approach unifies design, development and product management to create exceptional products. </p>
-                <p>We start each project by understanding your business goals, the user's needs and the product requirements  </p>
-                <p>Then we help transalte them into effective and elegant solutions.</p>
+                <div class="text-center">
+                    <h2>ABOUT US</h2>
+                    <p>When you work with us, you are part of a team of committed collaborators. All aspects pf our software developemnt process are intergrated, interactive and agile.</p>
+                    <p>Our approach unifies design, development and product management to create exceptional products. </p>
+                    <p>We start each project by understanding your business goals, the user's needs and the product requirements  </p>
+                    <p>Then we help transalte them into effective and elegant solutions.</p>
+                </div>
             </div>
             <!-- about_is -->
 
-            <div class="row" id="services">
-                <h2>SERVICES</h2>
-                <p>Before we sign a contract or write a line of code our team will spend necessary time needed to understand your prodyct cision </p>
-                <p>The outcome of this scoping session in a proporsal or high-level statement of work</p>
-                <p>Based on your,requirements, we can provide acomplete offering or just the pieces you need </p>
+            <div class="row text-white" id="services">
+                <div class="text-center">
+                    <h2>SERVICES</h2>
+                    <p>Before we sign a contract or write a line of code our team will spend necessary time needed to understand your prodyct cision </p>
+                    <p>The outcome of this scoping session in a proporsal or high-level statement of work</p>
+                    <p>Based on your,requirements, we can provide acomplete offering or just the pieces you need </p>
+                </div>
             </div>
             <!-- services -->
-                
-            <div class="row" id="what_we_do">
-                <h2>WHAT WE DO</h2>
+
+            
+            <div class="row text-center" id="what_we_do">
+                <div class="col-sm-12">
+                    <h2>WHAT WE DO</h2>
+                </div>
+
                 <div class="col-sm">
                     <img src="assets/services_icons/design_icon.png">
+                    <br>
                     DESIGN
                 </div>
                 <div class="col-sm">
                     <img src="assets/services_icons/dev_icon.png">
+                    <br>
                     DEVELOPMENT
                 </div>
                 <div class="col-sm">
                     <img src="assets/services_icons/product_icon.png">
+                    <br>
                     PRODUCT MANAGEMENT
                 </div>
             </div>
             <!-- what_we_do -->
 
-            <div class="row" id="portfolio">       
+            <div class="text-center">
                 <h2>PORTFOLIO</h2>
-                <div class="grid">
-                    <img src="assets/portfolio/work1.jpg">
-                    <img src="assets/portfolio/work2.jpg">
-                    <img src="assets/portfolio/work3.jpg">
-                    <img src="assets/portfolio/work4.jpg">
-                    <img src="assets/portfolio/work5.jpg">
-                    <img src="assets/portfolio/work6.jpg">
-                    <img src="assets/portfolio/work7.jpg">
-                    <img src="assets/portfolio/work8.jpg">
-                </div>
             </div>
+            <div class="row" id="portfolio">
+                <div class="row"> 
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <div class="grid">
+                            <img src="assets/portfolio/work1.jpg">
+                            <img src="assets/portfolio/work2.jpg">
+                            <img src="assets/portfolio/work3.jpg">
+                            <img src="assets/portfolio/work4.jpg">
+                            <img src="assets/portfolio/work5.jpg">
+                            <img src="assets/portfolio/work6.jpg">
+                            <img src="assets/portfolio/work7.jpg">
+                            <img src="assets/portfolio/work8.jpg">
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>  
             <!-- portfolio -->
-
-            <div class="row" id="contact_us">
-                <h2>CONTACT US</h2>
-                <div class="col-md-9 mb-md-0 mb-5">
+            
+            <div class="row text-white" id="contact_us">
+                <div class="text-center col-md-12">
+                    <h2>CONTACT US</h2>
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8">
                     <form id="contact-form" name="contact-form" action="mail.php" method="POST">
                         <div class="row">
                             <div class="col-md-6">
@@ -109,53 +134,54 @@
                     </div>
                     <div class="status"></div>
                 </div>
+                <div class="col-md-2">
+                </div>
             </div>
             <!-- contact_us -->
 
             <div class="row" id="footer_1"> 
-                <footer class="bg-light text-center text-white">
-                    <!-- Section: Social media -->
-                    <section class="">
-                        <!-- Facebook -->
-                        <a 
-                        class="btn text-white btn-floating m-1"
-                        style="background-color: #3b5998;"
-                        href="#!"
-                        role="button"><i class="fab fa-facebook-f"></i></a>
-                
-                        <!-- Twitter -->
-                        <a class="btn text-white btn-floating m-1"
-                        style="background-color: #55acee;"
-                        href="#!" role="button"><i class="fab fa-twitter"></i></a>
-                
-                        <!-- Google -->
-                        <a class="btn text-white btn-floating m-1"
-                        style="background-color: #dd4b39;"
-                        href="#!" role="button"><i class="fab fa-google"></i></a>
-                
-                        <!-- Instagram -->
-                        <a class="btn text-white btn-floating m-1"
-                        style="background-color: #ac2bac;"
-                        href="#!"role="button"><i class="fab fa-instagram"></i></a>
-                
-                        <!-- Linkedin -->
-                        <a class="btn text-white btn-floating m-1"
-                        style="background-color: #0082ca;"
-                        href="#!" role="button" ><i class="fab fa-linkedin-in"></i></a>
-                        <!-- Github -->
-                        <a class="btn text-white btn-floating m-1"
-                        style="background-color: #333333;"
-                        href="#!" role="button" ><i class="fab fa-github"></i ></a>
-                    </section>
-                
-                    <!-- Copyright -->
-                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                        <p>DELANI STUDIO</p>
-                        <p>2019</p>
-                        <!-- <a class="text-white" href="https://.com/">.com</a> -->
-                    </div>
-                    <!-- Copyright -->
-                </footer>
+                <div class="col-md-12">
+                    <footer class="bg-light text-center text-white">
+                        <!-- Section: Social media -->
+                        <section class="">
+                            <!-- Facebook -->
+                            <a 
+                            class="btn text-white btn-floating m-1"
+                            style="background-color: #3b5998;"
+                            href="#!"
+                            role="button"><i class="fab fa-facebook-f"></i></a>
+                    
+                            <!-- Twitter -->
+                            <a class="btn text-white btn-floating m-1"
+                            style="background-color: #55acee;"
+                            href="#!" role="button"><i class="fab fa-twitter"></i></a>
+                    
+                            <!-- Google -->
+                            <a class="btn text-white btn-floating m-1"
+                            style="background-color: #dd4b39;"
+                            href="#!" role="button"><i class="fab fa-google"></i></a>
+                    
+                            <!-- Instagram -->
+                            <a class="btn text-white btn-floating m-1"
+                            style="background-color: #ac2bac;"
+                            href="#!"role="button"><i class="fab fa-instagram"></i></a>
+                    
+                            <!-- Linkedin -->
+                            <a class="btn text-white btn-floating m-1"
+                            style="background-color: #0082ca;"
+                            href="#!" role="button" ><i class="fab fa-linkedin-in"></i></a>
+                            <!-- Github -->
+                            <a class="btn text-white btn-floating m-1"
+                            style="background-color: #333333;"
+                            href="#!" role="button" ><i class="fab fa-github"></i ></a>
+                        </section>
+                    
+                        <div class="text-center text-dark">
+                            <p>DELANI STUDIO</p>
+                            <p>2019</p>
+                        </div>
+                    </footer>
+                </div>
             </div> 
             <!-- footer_1 -->
         </div>

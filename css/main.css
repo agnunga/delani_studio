@@ -1,3 +1,11 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -10,27 +18,39 @@
 
 #welcome {
     background-image: url("../assets/backgrounds/h_img.jpg");
-
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 5%;
 }
 
 #about_us {
     background-color: white;
+    margin: 20px 0px;
 }
 
 #services {
-background-image: url("../assets/backgrounds/s_image.jpg");
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 30px;
 }
 
 #what_we_do {
     background-color: white;
+    margin: 20px 0px;
 }
 
 #portfolio {
     background-color: white;
+    margin: 20px 0px;
 }
 
 #contact_us {
-background-image: url("../assets/backgrounds/c_image.jpg");
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
-  
+.margin-5-c{
+    margin: 15px;
+}
