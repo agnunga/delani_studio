@@ -5,11 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Bootstrap Icon library -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" integrity="sha384-He3RckdFB2wffiHOcESa3sf4Ida+ni/fw9SSzAcfY2EPnU1zkK/sLUzw2C5Tyuhj" crossorigin="anonymous">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">    
     <!-- google fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <!-- custom css -->
@@ -88,14 +86,38 @@
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
                         <div class="grid">
-                            <img src="assets/portfolio/work1.jpg">
-                            <img src="assets/portfolio/work2.jpg">
-                            <img src="assets/portfolio/work3.jpg">
-                            <img src="assets/portfolio/work4.jpg">
-                            <img src="assets/portfolio/work5.jpg">
-                            <img src="assets/portfolio/work6.jpg">
-                            <img src="assets/portfolio/work7.jpg">
-                            <img src="assets/portfolio/work8.jpg">
+                            <div id="wb_Image3">
+                                <div class="portfolio-text hide">JIM CARREY Website</div> 
+                                <img src="assets/portfolio/work1.jpg" />
+                            </div>
+                            <div id="wb_Image3">
+                                <div class="portfolio-text hide">Abstract Graphics Design</div> 
+                                <img src="assets/portfolio/work2.jpg" />
+                            </div>
+                            <div id="wb_Image3">
+                                <div class="portfolio-text hide">MIGHTY Ontario Security Logo</div> 
+                                <img src="assets/portfolio/work3.jpg" />
+                            </div>
+                            <div id="wb_Image3">
+                                <div class="portfolio-text hide">DarkImage project</div> 
+                                <img src="assets/portfolio/work4.jpg" />
+                            </div>
+                            <div id="wb_Image3">
+                                <div class="portfolio-text hide">HAVE A GOOD DAY!</div> 
+                                <img src="assets/portfolio/work5.jpg" />
+                            </div>
+                            <div id="wb_Image3">
+                                <div class="portfolio-text hide">Controls and Equalizers</div> 
+                                <img src="assets/portfolio/work6.jpg" />
+                            </div>
+                            <div id="wb_Image3">
+                                <div class="portfolio-text hide">BURNED Logo Mock-up</div> 
+                                <img src="assets/portfolio/work7.jpg" />
+                            </div>
+                            <div id="wb_Image3">
+                                <div class="portfolio-text hide">Giraffe Restaurant Website</div> 
+                                <img src="assets/portfolio/work8.jpg" />
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-2"></div>
@@ -113,29 +135,20 @@
                     <form id="contact-form" name="contact-form" action="https://us10.list-manage.com/contact-form?u=93fe9de1cd30600aa5ed4cc06&form_id=9ac9309d927a26923825848dd2f810c1" method="POST">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control">
-                                    <label for="name" class="">Your name</label>
-                                </div>
+                                <input type="text" id="name" name="name" class="form-control margin-5-c" placeholder="Name...">
                             </div>
                             <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control">
-                                    <label for="email" class="">Your email</label>
-                                </div>
+                                <input type="text" id="email" name="email" class="form-control margin-5-c" placeholder="Email...">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="md-form">
-                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                    <label for="message">Your message here</label>
-                                </div>
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea margin-5-c" placeholder="Your message here..."></textarea>
                             </div>
                         </div>
                     </form>
                     <div class="text-center text-md-left">
-                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                        <a class="btn btn-primary margin-5-c" onclick="document.getElementById('contact-form').submit();">Send</a>
                     </div>
                     <div class="status"></div>
                 </div>
@@ -148,37 +161,16 @@
                 <div class="col-md-12">
                     <footer class="text-center text-white">
                         <!-- Section: Social media -->
-                        <section class="">
-                            <!-- Facebook -->
-                            <a 
-                            class="btn text-white btn-floating m-1"
-                            style="background-color: #3b5998;"
-                            href="#!"
-                            role="button"><i class="fab fa-facebook-f"></i></a>
-                    
-                            <!-- Twitter -->
-                            <a class="btn text-white btn-floating m-1"
-                            style="background-color: #55acee;"
-                            href="#!" role="button"><i class="fab fa-twitter"></i></a>
-                    
-                            <!-- Google -->
-                            <a class="btn text-white btn-floating m-1"
-                            style="background-color: #dd4b39;"
-                            href="#!" role="button"><i class="fab fa-google"></i></a>
-                    
-                            <!-- Instagram -->
-                            <a class="btn text-white btn-floating m-1"
-                            style="background-color: #ac2bac;"
-                            href="#!"role="button"><i class="fab fa-instagram"></i></a>
-                    
-                            <!-- Linkedin -->
-                            <a class="btn text-white btn-floating m-1"
-                            style="background-color: #0082ca;"
-                            href="#!" role="button" ><i class="fab fa-linkedin-in"></i></a>
-                            <!-- Github -->
-                            <a class="btn text-white btn-floating m-1"
-                            style="background-color: #333333;"
-                            href="#!" role="button" ><i class="fab fa-github"></i ></a>
+                        <section class="margin-5-c">
+                            <a href="#!"> <img src="assets/social_icons/twitter.png" alt="Twitter"  class="margin-5-c"></a>
+                            <a href="#!"> <img src="assets/social_icons/dribble.png" alt="Dribble" class="margin-5-c"></a>
+                            <a href="#!"> <img src="assets/social_icons/facebook.png" alt="facebook" class="margin-5-c"></a>
+                            <a href="#!"> <img src="assets/social_icons/g_plus.png" alt="g_plus" class="margin-5-c"></a>
+                            <a href="#!"> <img src="assets/social_icons/stumble_upon.png" alt="stumble_upon" class="margin-5-c"></a>
+                            <a href="#!"> <img src="assets/social_icons/behance.png" alt="behance" class="margin-5-c"></a>
+                            <a href="#!"> <img src="assets/social_icons/pinterest.png" alt="pinterest" class="margin-5-c"></a>
+                            <a href="#!"> <img src="assets/social_icons/flickr.png" alt="flickr" class="margin-5-c"></a>
+                            <!-- <a href="#!"> <img src="assets/social_icons/you_tube.png" alt="you_tube" class="margin-5-c"></a> -->
                         </section>
                     
                         <div class="text-center text-dark">
@@ -191,10 +183,14 @@
             <!-- footer_1 -->
         </div>
 
+        <div id="wb_Image3">
+            <div class="text hide">Kangaroo</div> 
+            <img src="assets/portfolio/work1.jpg" />
+        </div>
+
     <!-- Bootstrap Bundle with Popper -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <script src="js/custom.js"> </script>
   </body>
 </html>

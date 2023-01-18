@@ -1,5 +1,6 @@
 body {
     font-family: "Montserrat", sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 h2{
@@ -52,5 +53,21 @@ h2{
 }
 
 .margin-5-c{
-    margin: 15px;
+    margin: 10px;
 }
+
+#wb_Image3 {
+    position: relative;
+}
+.portfolio-text {
+    font-weight: bold;
+    z-index: 1;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    right: 10%;
+}
+.hide {
+    display: none;
+}
+
